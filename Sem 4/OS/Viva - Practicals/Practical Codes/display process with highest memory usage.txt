@@ -1,0 +1,1 @@
+alias mem-by-proc="ps aux | head -1; ps aux | sort -rnk 4"

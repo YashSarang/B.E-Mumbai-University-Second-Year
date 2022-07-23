@@ -1,0 +1,4 @@
+logname
+
+user 
+type with echo 

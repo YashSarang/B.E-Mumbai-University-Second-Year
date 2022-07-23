@@ -1,0 +1,10 @@
+grep -i "___" _____ (case insensetive)
+grep -c "__" _____ (count)
+grep -o "___" ____ (only matched word display)
+grep -n "___" ____ (show line number)
+
+sort -r ____ (reverse file)
+sort -n ____ (sort numerically)
+sort -nr (sort numeric data in reverse)
+sort -kn (no. of column)
+sort -u (sort and remove duplicated)

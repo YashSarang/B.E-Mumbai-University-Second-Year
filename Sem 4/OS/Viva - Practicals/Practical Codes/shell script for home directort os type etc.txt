@@ -1,0 +1,6 @@
+echo "$Shell"
+echo "$Home"
+echo "uname -r"
+echo "$Path"
+echo "$pwd"
+

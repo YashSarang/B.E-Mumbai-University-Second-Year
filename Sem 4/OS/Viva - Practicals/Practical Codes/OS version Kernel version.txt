@@ -1,0 +1,3 @@
+echo "$uname"
+echo "$lsb_release -a"
+echo "$uname -r"

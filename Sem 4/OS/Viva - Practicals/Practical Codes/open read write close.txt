@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <unistd.h>
+int main()
+{
+printf("Real id is %d\n", getuid()); 
+printf("Effective id is %d\n", geteuid()); 
+printf("Real Group ID is %%d\n", getgid()); 
+printf("Effective Group ID is %d\n", getegid());
+
+return 0;
+}
+
+#include<sys/stat.h>
+#include<fcntl.h>
+#include<unistd.h>
+#include<stdlib.h>
+int main(int args, char *argv[])
+{
+int fd; char buf[14];
+fd = open("trial.txt", O_CREAT | O_WRONLY, 0600);
+if (fd == -1) {
+printf("Failed to create and open file\n"); exit(1);
+}
+write(fd, "Hello World\n", 13);
+close(fd); fd = open("trial.txt", O_RDONLY);
+if(fd == -1)
+{ printf("Failed to open and read\n");
+exit(1);
+read(fd, buf, 13);
+buf[13] = '\0';
+close(fd); printf("buf: %s\n", buf);
+return 0;
+}

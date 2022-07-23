@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+
+
+html,
+body {
+  background-image: url("https://cdn.discordapp.com/attachments/951473018293592144/959898585732882472/unknown.png");
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  display: flex;
+}
+
+#defaultCanvas0{
+  margin-left: 25%;
+  background-color: yellow;
+  align-self: center;
+  align-items: center;
+}
+
+#canvas-container {
+  align-self: center;
+  width: fit-content;
+  padding: 50px;
+}
+
+#game-container {
+  background: white;
+  min-width: fit-content;
+}
+
+#info-bar {
+  font-family: 'Patua One', cursive;
+  padding: 5px;
+/*   display: flex; */
+/*   border: solid */
+}
+
+#info-bar p {
+  font-size: 20px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+
+.form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.form-inline p {
+  margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+#title {
+  font-family: 'Patua One', cursive;
+  font-size: 64px;
+  width: fit-content;
+  text-align: center;
+}

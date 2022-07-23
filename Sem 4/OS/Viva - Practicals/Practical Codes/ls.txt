@@ -1,0 +1,7 @@
+ls l – List files and directories in Long Listing Format.
+ls a – To check hidden files and directories.
+ls i – To check Inode Informations.
+ls n – List UID and GID number of Owner and Groups to which the files and directories are belongs.
+ls g – List group of files and directories to which they belongs.
+ls G – List users and not groups of files and directories to which they belongs.
+ls h – List the size of the files and directories in Human Readable format.

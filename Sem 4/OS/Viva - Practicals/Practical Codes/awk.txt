@@ -1,0 +1,4 @@
+awk '{print}' __ (print every line)
+awk '/____/ {print}' __ (matched line )
+awk '{print $n, $m}' ___ (print the n and m column)
+awk '{print NR, $0}' __ (line number)

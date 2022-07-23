@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+</head>
+
+<body>
+
+    <div id="game-container" class="center">
+        <div id="title" class="center">
+            <p>Tic - Tac - Toe</p>
+        </div>
+        <div id="canvas-container" class="center">
+        </div>
+        <div id="info-bar" class="center">
+            <p id="winner"></p>
+            <p>The AI plays X</p>
+            <button id="reset-button">Reset</button </br> <div class="form-inline">
+            <p id="difficulty-info">Difficulty: </p>
+            <input id="difficulty" type="number" max="6" min="1" value="6">
+        </div>
+
+    </div>
+    </div>
+    <script src="minimax.js"></script>
+    <script src="sketch.js"></script>
+</body>
+
+</html>

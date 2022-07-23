@@ -1,0 +1,38 @@
+#include <math.h>
+#include <stdio.h>
+
+void InsertionSort(int arr[], int size)
+{
+    int index1, index2, value;
+    for (index1 = 1; index1 < size; index1++)
+    {
+        value = arr[index1];
+        index2 = index1 - 1;
+
+        while (index2 >= 0 && arr[index2] > value)
+        {
+            arr[index2 + 1] = arr[index2];
+            index2--;
+        }
+        arr[index2 + 1] = value;
+    }
+}
+
+void printArray(int arr[], int n)
+{
+    int i;
+    for (i = 0; i < n; i++)
+        printf("%d ", arr[i]);
+    printf("\n");
+}
+
+int main()
+{
+    int arr[] = {12, 11, 13, 5, 6};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    InsertionSort(arr, n);
+    printArray(arr, n);
+
+    return 0;
+}

@@ -1,0 +1,7 @@
+mv -d	The source file is stored in decrypted (clear-text) format on target.
+mv -e	The source file is stored in encrypted form, if the target file system is an Encrypted File System (EFS).
+mv -E	The -E option requires one of the following arguments. If you omit the -E option, warn is the default behavior.
+force
+mv -f	Does not prompt you before overwriting an existing file.
+mv -i	Prompts you before moving a file or directory to an existing path name by displaying the name of the file followed by a question mark. If you answer with a line starting with y or the locale's equivalent of a y, the move continues. Any other reply prevents the move from occurring.
+mv -I	Suppresses the warning message during ACL conversion.

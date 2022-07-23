@@ -1,0 +1,24 @@
+frame_size = int(input("Enter frame size: "))
+pages = [7, 0 , 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2, 1, 2, 0, 1, 7, 0, 1]
+frame = []
+page_faults = 0
+occurance = [None for i in range(frame_size)]
+for i in range(len(pages)):
+    if pages[i] not in frame:
+        if len(frame) < frame_size:
+            frame.append(pages[i])
+            print(frame)
+        else:
+            for x in range(len(frame)):
+                if frame[x] not in pages[i+1:]:
+                    frame[x] = pages[i]
+                    break
+                else:
+                    occurance[x] = pages[i+1:].index(frame[x])
+            else:
+                    frame[occurance.index(max(occurance))] = pages[i]
+            print(frame)
+            page_faults += 1
+print("Page Faults: ", page_faults)
+print("Miss Rate: ", page_faults/len(pages))
+print("Hit Rate: ", 1 - page_faults/len(pages))

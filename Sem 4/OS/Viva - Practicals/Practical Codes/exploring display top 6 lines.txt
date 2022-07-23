@@ -1,0 +1,4 @@
+head -6 ____
+tail -6 _____
+nroff -e _____
+troff -a _____

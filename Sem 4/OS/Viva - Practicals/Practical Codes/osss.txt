@@ -1,0 +1,44 @@
+Introduction, Objectives, Functions and Evolution of Operating System
+Operating system structures: Layered, Monolithic and Microkernel
+Linux Kernel
+Shell and System Calls
+
+Concept of a Process, Process States
+Process Description
+Process Control Block.
+Uniprocessor Scheduling-Types: Preemptive and Non-preemptive
+						scheduling algorithms (FCFS, SJF, SRTN, Priority, RR)
+Threads: Definition and Types
+Concept of Multithreading
+
+Concurrency: Principles of Concurrency, Inter-Process Communication
+Process Synchronization
+Mutual Exclusion: Requirements
+Hardware Support (TSL)
+Operating System Support (Semaphores)
+Producer and Consumer problem.
+Principles of Deadlock: Conditions and Resource
+Allocation Graphs
+Deadlock Prevention
+Deadlock Avoidance: Banker's Algorithm
+Deadlock Detection and Recovery
+Dining Philosophers Problem
+
+Memory Management Requirements
+Memory Partitioning: Fixed
+Partitioning, Dynamic Partitioning
+Memory Allocation Strategies: Best-Fit, First Fit, Worst Fit
+Paging and Segmentation
+TLB
+Virtual Memory: Demand Paging
+Page Replacement Strategies: FIFO, Optimal, LRU, Thrashing
+
+File Organization and Access
+File Directories
+File Sharing
+
+I/O devices
+Organization of the I/O Function
+Disk Organization
+I/O Management
+Disk Scheduling: FCFS, SSTF, SCAN, CSCAN, LOOK, C-LOOK.
