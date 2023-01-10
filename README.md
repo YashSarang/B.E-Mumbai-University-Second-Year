@@ -1,6 +1,13 @@
-Books + Study Material + Assignments
+Books / Study Material / Assignments
 for the latest First Year Engineering Curriculum of the Mumbai University.
 Feel free to use them (for Educational purposes only).
+=======
+
+Feel free to fork and suggest improvements according to your taste.
+If you are new and just want to access to the resources locally,
+Clone the repo.
+Follow these instructions to clone or fork : https://docs.github.com/en/get-started/quickstart/fork-a-repo 
+
 =======
 
 ### According to
@@ -42,6 +49,6 @@ Applicable For
 Second Year with Effect from AY 2021-22
 --------
 
-Advise any improvements/suggestions for the repository on - https://docs.google.com/document/d/1_3qtbeMxFyW5JM4eH_xrSYFcjm2ZPhB9g7PxfHtW6uQ/edit?usp=sharing
+Advise any improvements/suggestions for the repository on my mail.
 
 Feel free to contact me regarding the same if necessary on 2020.yash.sarang@ves.ac.in
